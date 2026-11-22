@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#0D0221">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VICEPHONE"
+        android:textColor="#FF2A85"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEONIDA DUO TACTICAL COMMS"
+        android:textColor="#00F0FF"
+        android:textSize="13sp"
+        android:letterSpacing="0.2"
+        android:layout_marginBottom="36dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTER SECRET PASSCODE"
+        android:textColor="#FFB800"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:hint="Enter your ID password..."
+        android:textColorHint="#8888AA"
+        android:textColor="#FFFFFF"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:background="#1A0B3B"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnLoginJason"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="LOGIN AS PLAYER 1....Password: vice1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="#FF2A85"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnLoginLucia"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="LOGIN AS PLAYER 2....Password: vice2"
+        android:textColor="#0D0221"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="#00F0FF"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powered by Nexconn Real-Time Engine"
+        android:textColor="#8888AA"
+        android:textSize="12sp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="© 2026 Mohammed Husain Kapadia (MHK). All Rights Reserved."
+        android:textColor="#555577"
+        android:textSize="11sp"
+        android:gravity="center" />
+
+</LinearLayout>

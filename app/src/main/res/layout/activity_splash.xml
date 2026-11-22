@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0D0221">
+
+    <TextView
+        android:id="@+id/tvSplashTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VICEPHONE"
+        android:textColor="#FF2A85"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.18"
+        android:alpha="0"
+        android:scaleX="0.6"
+        android:scaleY="0.6" />
+
+    <TextView
+        android:id="@+id/tvSplashSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEONIDA TACTICAL NETWORK"
+        android:textColor="#00F0FF"
+        android:textSize="13sp"
+        android:letterSpacing="0.25"
+        android:layout_marginTop="10dp"
+        android:alpha="0" />
+
+</LinearLayout>

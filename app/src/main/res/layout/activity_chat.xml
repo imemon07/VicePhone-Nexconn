@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0D0221">
+
+    <!-- Vice City Neon Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#1A0B3B"
+        android:padding="14dp">
+
+        <TextView
+            android:id="@+id/tvChatHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VICEPHONE // ENCRYPTED LINE"
+            android:textColor="#FF2A85"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tvSubHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LIVE DUO SYNC • LEONIDA"
+            android:textColor="#00F0FF"
+            android:textSize="11sp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <!-- Chat Messages Area -->
+
+    <!-- One-Tap GTA 6 Tactical Alerts Bar -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/chatContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="14dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="14dp"
+                android:text="⚡ Encrypted VicePhone Channel Active"
+                android:textColor="#FFB800"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#160830"
+        android:padding="6dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAlertCops"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:text="🚓 Cops on Me"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#D90429"
+                android:layout_marginEnd="6dp" />
+
+            <Button
+                android:id="@+id/btnAlertCar"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:text="🚗 Need Getaway"
+                android:textSize="12sp"
+                android:textColor="#0D0221"
+                android:backgroundTint="#FFB800"
+                android:layout_marginEnd="6dp" />
+
+            <Button
+                android:id="@+id/btnAlertHeist"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:text="💰 Heist Ready"
+                android:textSize="12sp"
+                android:textColor="#0D0221"
+                android:backgroundTint="#00F0FF"
+                android:layout_marginEnd="6dp" />
+
+            <Button
+                android:id="@+id/btnAlertSafe"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:text="📍 Safehouse"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FF2A85" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- Message Input Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="#1A0B3B">
+
+        <EditText
+            android:id="@+id/etMessage"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:hint="Send intel to partner..."
+            android:textColorHint="#8888AA"
+            android:textColor="#FFFFFF"
+            android:paddingStart="12dp"
+            android:background="@null" />
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEND"
+            android:backgroundTint="#FF2A85"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
